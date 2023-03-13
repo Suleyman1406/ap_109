@@ -16,16 +16,23 @@
 // console.log(car.colours);
 // console.log(car.seller.name);
 
-// let car = {
-//   "5-if": "BMW",
-//   price: 12,
-//   colours: ["yellow", "pink"],
-//   seller: {
-//     // name: "Mehemmed",
-//     surname: "Eliyev",
-//     age: 12,
-//   },
-// };
+let car = {
+  "5-if": "BMW",
+  price: 12,
+  seymur: true,
+  colours: ["yellow", "pink"],
+  seller: {
+    // name: "Mehemmed",
+    surname: "Eliyev",
+    age: 12,
+  },
+};
+
+car.price = 13;
+car.seymur = true;
+console.log(car.price);
+console.log(car);
+
 // if (car.seller) console.log(car.seller.name);
 
 // let a = false;
