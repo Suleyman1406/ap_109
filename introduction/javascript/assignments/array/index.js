@@ -85,22 +85,22 @@
 // if array = [1, "salam", 1, true, true, false, false, false, 5, "5"] then print "1 salam true false 5"
 // if array = [2, "class", 1, true, "class", 16, 17, 18,  "17"] then print "2 class 1 true 16 17 18"
 
-let myArray = [1, "salam", 1, true, true, false, false, false, 5, "5"];
-let myNewArray = [];
+// let myArray = [1, "salam", 1, true, true, false, false, false, 5, "5"];
+// let myNewArray = [];
 
-for (let i = 0; i < myArray.length; i++) {
-  let isThere = false;
-  for (let j = 0; j < myNewArray.length; j++) {
-    if (myNewArray[j] + "" == myArray[i] + "") {
-      isThere = true;
-      break;
-    }
-  }
-  if (!isThere) myNewArray[myNewArray.length] = myArray[i];
-}
+// for (let i = 0; i < myArray.length; i++) {
+//   let isThere = false;
+//   for (let j = 0; j < myNewArray.length; j++) {
+//     if (myNewArray[j] == myArray[i]) {
+//       isThere = true;
+//       break;
+//     }
+//   }
+//   if (!isThere) myNewArray[myNewArray.length] = myArray[i];
+// }
 
-let myResultString = "";
-for (let i = 0; i < myNewArray.length; i++) {
-  myResultString += myNewArray[i] + " ";
-}
-console.log(myResultString);
+// let myResultString = "";
+// for (let i = 0; i < myNewArray.length; i++) {
+//   myResultString += myNewArray[i] + " ";
+// }
+// console.log(myResultString);
