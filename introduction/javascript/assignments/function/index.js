@@ -18,7 +18,7 @@
 /* Adding two elements to the array at index 10. */
 // console.log(myArray);
 
-let newStr = " salaM Necesen mehemmed   ";
+// let newStr = " salaM Necesen mehemmed   ";
 
 // console.log(newStr.includes("  "));
 // console.log(newStr.endsWith("gun"));
@@ -30,7 +30,26 @@ let newStr = " salaM Necesen mehemmed   ";
 // console.log(newStr.toUpperCase());
 // console.log(newStr.substring(6, 13));
 // console.log(newStr.trim());
-newStr = " salaM Necesen meHemmed   ";
+// newStr = " salaM Necesen meHemmed   ";
 
-/* Trimming the string, making it lowercase and replacing the word "meHemmed" with "vaqif". */
-console.log(newStr.trim().toLowerCase().replaceAll("mehemmed", "vaqif"));
+// /* Trimming the string, making it lowercase and replacing the word "meHemmed" with "vaqif". */
+// console.log(newStr.trim().toLowerCase().replaceAll("mehemmed", "vaqif"));
+
+
+
+function printPipes(pipeCount){
+  let printedPipeCount = 1;
+  for (let i = 0; i < pipeCount; i++) {
+    let tempStr = ""
+    for (let k = 0; k < printedPipeCount; k++) {
+      tempStr+='|'      
+    }
+    for (let j = 0; j < pipeCount-printedPipeCount; j++) {
+      tempStr +=' ';
+    }
+    printedPipeCount++;
+    console.log(tempStr);
+  }
+}
+
+printPipes(10)
