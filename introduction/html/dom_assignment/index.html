@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <input type="email" id="registerEmailInput" placeholder="Email" />
+    <input type="password" id="registerPassInput" placeholder="Password" />
+    <input
+      type="password"
+      id="registerConfirmPassInput"
+      placeholder="Confirm password"
+    />
+    <button id="registerBtn">Register</button>
+    <br />
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody id="userTableBody"></tbody>
+    </table>
+    <h1>Login</h1>
+    <input type="email" id="loginEmailInput" placeholder="Email" />
+    <input type="password" id="loginPassInput" placeholder="Password" />
+    <button id="loginBtn">Login</button>
+    <h4 id="result"></h4>
+    <script src="./index.js"></script>
+  </body>
+</html>
